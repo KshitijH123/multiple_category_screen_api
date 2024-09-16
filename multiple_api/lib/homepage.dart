@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () => _navigateToCategoryDetail(context),
-          child: const Text('Go to Category Detail'),
+          child: const Text('Category Detail'),
         ),
       ),
     );
